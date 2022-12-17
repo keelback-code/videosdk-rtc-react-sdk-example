@@ -9,7 +9,7 @@ import { meetingTypes } from "./utils/common";
 import { MeetingContainer } from "./meeting/MeetingContainer";
 import { ILSContainer } from "./interactive-live-streaming/ILSContainer";
 
-const App = () => {
+const Call = () => {
   const [token, setToken] = useState("");
   const [meetingId, setMeetingId] = useState("");
   const [participantName, setParticipantName] = useState("");
@@ -214,4 +214,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Call;
